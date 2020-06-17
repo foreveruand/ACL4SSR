@@ -14,7 +14,11 @@
 ### [outbound_block_list] 禁止访问列表
 ### [bypass_list] 直连列表 禁止访问列表
 ### [proxy_list] 代理列表
-
+(^|\.)\w*baidu\w*\.\w*$
+(^|\.)qq\.com$
+(^|\.)aliyun\.com$
+(^|\.)taobao\.com$
+(^|\.)keylol\.com$
 #**********************************************************************
 [proxy_list]
 
@@ -23,6 +27,11 @@
 (^|\.)btlibrary\.me$
 (^|\.)cccat\.io$
 (^|\.)cloudcone\.com$
+(^|\.)live\.com$
+(^|\.)saber\.love$
+(^|\.)live\.net$
+(^|\.)steamcommunity\.com$
+(^|\.)nexusmods\.com$
 (^|\.)gameloft\.com$
 (^|\.)inoreader\.com$
 (^|\.)ip138\.com$
